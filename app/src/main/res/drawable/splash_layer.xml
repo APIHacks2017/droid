@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Splash Screen Background Color -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- App Logo which comes center of the Screen due to gravity:"center" -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_splash" />
+    </item>
+
+</layer-list>

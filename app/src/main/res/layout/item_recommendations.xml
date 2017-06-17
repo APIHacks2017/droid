@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:padding="@dimen/margin_high">
+
+    <ImageView
+        android:id="@+id/imv_recommendation"
+        android:layout_width="@dimen/fifty_dp"
+        android:layout_height="@dimen/fifty_dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_high"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_recommendation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imv_recommendation"
+        android:textSize="@dimen/semi_x_large" />
+
+    <TextView
+        android:id="@+id/tv_recommendation_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_recommendation_title"
+        android:layout_toRightOf="@id/imv_recommendation"
+        android:textSize="@dimen/medium" />
+</RelativeLayout>
